@@ -4,25 +4,24 @@
     font-size: 16px;
     font-weight: normal;
 }
+/* лучше через библиотеку*/
+
 .container {
     max-width: 1070px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    /*чтоб контейнер стал по центру*/
+    padding: 38px 0 46px;
+    /*внутренній отступ*/
 }
 
-.header {
+.header, .footer {
     background-color: rgba(255, 113, 67, 0.27);
-    padding: 38px 0 48px;
+    height: 145px;
 }
 
-.btn1 {
-    padding: 20px 30px;
-    margin: 50px 30px;
-    background-color: #5454D4;
-    font-size: 19px;
-}
-
-.nav_li {
+.nav_li{
     display: inline-block;
+    /*в один рядок*/
 }
 
 .nav_li:not(:first-of-type){
@@ -36,6 +35,7 @@
     letter-spacing: -0.468947px;
     color: #696871;
     text-decoration: none;
+    /*подчеркивание у ссылок*/
 }
 
 .nav_link:hover {
@@ -44,6 +44,7 @@
 }
 
 .button {
+    /*из figma*/
     width:212px;
     height: 60px;
     font-weight: bold;
@@ -59,6 +60,7 @@
 
 .button_orange {
     background-color:#FF7143;
+    transition: 300ms;
 }
 
 .button_orange:hover {
@@ -66,25 +68,92 @@
     transition: 300ms;
 }
 
-.footer {
-    background-color: rgba(255, 113, 67, 0.27);
-    padding: 38px 0 48px;
-}
-
-.footer_li {
-    display: inline-block;
-}
-
-.footer_link {
+.about_title {
     font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: -0.468947px;
-    color: #696871;
-    text-decoration: none;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+    margin-top: 90px;
 }
 
-.footer_link:hover {
-    color: black;
-    transition: 300ms;
+.about_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    min-width: 410px;
+    margin-bottom: 30px;
+
+}
+
+.button_violet, .button__secondTry {
+    padding: 20px 30px;
+    margin: 0px 35.6px 117px 0px;
+    background-color: #5454D4;
+    font-size: 19px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button_try {
+    padding: 19px 61px 19px 60px;
+    margin: 35px 35px 117px 0px;
+    background-color: white;;
+    border: 1px solid #5454D4;
+    font-size: 19px;
+    border-radius: 10px;
+    color: #5454D4;
+}
+
+.email {
+    border: 1px solid #5454D4;
+    border-radius: 10px;
+    font-size: 19px;
+    margin-top: 57px;
+    width: 302px;
+    height: 60px;
+    padding-left: 14px;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+}
+/* align-items: center; - чтобы кнопки/слова били в отцентрированны на одном уровне*/
+
+.footer_flex {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+}
+
+.section_flex {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.second_title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    margin-top: 150px;
+}
+
+.chart{
+    padding-bottom: 220px;
+}
+
+.third_title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    margin-top: 0px;
 }
