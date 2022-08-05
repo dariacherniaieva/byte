@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header_flex">
             <div>
                 <a href="#">
                     <img src="./img/LogoColor.svg" alt="logo">
@@ -17,26 +17,10 @@
             </div>
             <nav class="nav">
                 <ul>
-                    <li class="nav_li">
-                        <a class="nav_link" href="#">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav_li">
-                        <a class="nav_link" href="#">
-                            Features
-                        </a>
-                    </li>
-                    <li class="nav_li">
-                        <a class="nav_link" href="#">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="nav_li">
-                        <a class="nav_link" href="#">
-                            Blog
-                        </a>
-                    </li>
+                    <li class="nav_li"><a class="nav_link" href="#"> Home </a></li>
+                    <li class="nav_li"><a class="nav_link" href="#"> Features </a></li>
+                    <li class="nav_li"><a class="nav_link" href="#"> Picing </a></li>
+                    <li class="nav_li"><a class="nav_link" href="#"> Blog </a></li>
                 </ul>
             </nav>
             <div>
@@ -46,63 +30,67 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="container about section_flex">
         <div>
-            <h1>
-                Grow your subscription business
-            </h1>
-            <p> 
-                Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
-            </p>
             <div>
-                <button class="btn1"> Get Started </button>
-                <button class="btn2"> Try </button>
+                <h1 class="about_title">
+                    Grow your <br> subscription <br> business
+                </h1>
+                <p class="about_text"> 
+                    Outcome-centered products that reduce churn, <br> optimize pricing, and grow your subscription business <br> end-to-end.
+                </p>
+            </div>
+            <div>
+                <button class="button button_violet"> Get Started </button>
+                <button class="button button_try "> Try </button>
+            </div>
+            <div>
+            <img src="./img/firstMan.png" alt="firstMan">
+            <img src="./img/firstman_add.png" alt="firstMan">
+            <img src="./img/firstMan_secondAdd.png" alt="firstMan">
             </div>
         </div>
-        <div>
-            <img src="./img/man1.png" alt="firstMan">
-        </div>
     </section>
-    <section>
+    <section class="container second_about section_flex ">
         <div> 
-            <img src="./img/firstChart.png" alt="first_Chart">
+            <img class="chart" src="./img/firstChart.png" alt="first_Chart">
             <img src="./img/secondMan.png" alt="">
         </div> 
         <div>
-            <h2>
+            <h2 class="second_title">
                 Subscription index
             </h2>
             <form action="#">
-                <input type="email" name="email" placeholder="Email" required>
+                <input class="email" type="email" name="email" placeholder="Email" required>
+                <button class="button button__secondTry" > Try </button>
             </form>
         </div>
+    </section>
+    <section class="container">
         <div>
-            <button> Try </button>
+            <h2 class="third_title">
+                Get the right plan <br> for future
+            </h2>
         </div>
     </section>
-    <section>
+    <section class="container">
         <div>
-            <h1>
-                Get the right plan for future
-            </h1>
-        </div>
-    </section>
-    <section>
-        <div>
-
+            <img src="#" alt="#">
         </div>
     </section>
     <footer class="footer">
-        <div class="container">
-            <a href="">
-                <img src="./img/LogoColor.svg" alt="logo">
-            </a>
-            <nav>
+        <div class="container footer_flex">
+            <div>
+                <a href="">
+                    <img src="./img/LogoColor.svg" alt="logo">
+                </a>
+            </div>
+            <nav class="nav">
                 <ul>
-                    <li class="footer_li"><a class="footer_link" href="#">Support</a></li>
-                    <li class="footer_li"><a class="footer_link" href="#">Premium</a></li>
-                    <li class="footer_li"><a class="footer_link" href="#">Pricing</a></li>
-                    <li class="footer_li"><a class="footer_link" href="#">Blog</a></li>
+                    <li class="nav_li"><a class="nav_link" href="#">Support</a></li>
+                    <li class="nav_li"><a class="nav_link" href="#">Premium</a></li>
+                    <li class="nav_li"><a class="nav_link" href="#">Pricing</a></li>
+                    <li class="nav_li"><a class="nav_link" href="#">Blog</a></li>
                 </ul>
             </nav>
         </div>
